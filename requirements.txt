@@ -1,0 +1,4 @@
+importlib-metadata==4.10.0
+Markdown==3.3.6
+typing-extensions==4.0.1
+zipp==3.7.0

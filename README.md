@@ -1,6 +1,14 @@
 # FreeSewing-Toolkit
 Repository containing various scripts to help with using FreeSewing and ultimately contributing back to the project
 
+## Introduction
+[FreeSewing](https://freesewing.org/) is an open source platform for made-to-measure sewing patterns. The scripts in this repository are to help automate some very specific tasks for contributing content back to the project in various forms.
+
+## Usage
+All Python scripts attempt to use as little non-standard Python packages as possible however you can use [environments](https://docs.python.org/3/tutorial/venv.html) with the provided [requirements.txt](https://github.com/darigovresearch/FreeSewing-Toolkit/blob/main/requirements.txt) file to install all the dependencies. To run the files then simply go to the location of where you saved them in your terminal and run the scripts locally as follows:
+
+`python file_name.py`
+
 ## Contributing
 Pull requests, corrections, translations & fixes are welcome. Any contributions must be submitted under the same license that the original piece of work (see below). Take a look at any open issues or submit new ones if there is something that needs to be fixed or added.
 

@@ -1,3 +1,5 @@
+## standard python ignores
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -127,3 +129,12 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+## END standard python ignores
+
+
+## project ignores
+
+output.txt
+
+## END project ignores

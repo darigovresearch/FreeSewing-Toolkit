@@ -89,7 +89,8 @@ x = open("output.txt", "w", encoding="utf8")
 x.write(reference_text)
 x.close()
 
-instructions_string = """Content to copy & paste into discussion has been generated in 'output.txt which will open automatically
+instructions_string = """
+Content to copy & paste into discussion has been generated in 'output.txt' which will open automatically
 
 In windows you can use the shortcuts:
 - CTRL+A to select all
@@ -103,7 +104,7 @@ Double check & make any adjustments if required before posting such as
 In the discussion:
 - Set the category to Q&A
 - Add labels "fscc" & "community"
-- Check the date, time & hosts are what you intended them to be
+- Check the date, time & hosts are what you intended them to be and that the time zone generated link works
 """
 
 print(instructions_string)

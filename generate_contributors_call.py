@@ -58,7 +58,7 @@ The call does not have a fixed structure or agenda items. Everyone is free to su
 Details:
 
 Location: https://discord.freesewing.org (meeting room: 🔊voice chat)
-Date: """ + date + """ """ + time + """"
+Date: """ + date + """ """ + time + """
 Or check the bot in Discord! #meetings
 
 ### Agenda
@@ -72,7 +72,7 @@ x = open("output.txt", "w", encoding="utf8")
 x.write(reference_text)
 x.close()
 
-instructions_string = """"Content to copy & paste into discussion has been generated in 'output.txt which will open automatically
+instructions_string = """Content to copy & paste into discussion has been generated in 'output.txt which will open automatically
 
 In windows you can use the shortcuts:
 - CTRL+A to select all

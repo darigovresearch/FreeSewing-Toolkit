@@ -11,7 +11,7 @@ month = date_split[1]
 year = date_split[2]
 
 # inputing time from command line
-time = input("What time is the call in UTC? (leave blank to set to 4pm UTC) ")
+time = input("What time is the call in UTC? (leave blank to set to 5pm UTC) ")
 print(time)
 
 # savvy time link based off of previous time zones in community call notes
@@ -21,10 +21,10 @@ link_base = "https://savvytime.com/converter/utc-to-ca-los-angeles-il-chicago-ny
 if time == "":
     # set the default time if input is set to blank
     # autogenerate time zones for default time
-    link = link_base + month[0:3] + "-" + day + "-" + year + "/" + "4pm"
-    time = "4pm UTC, which is can be found in your local time zone [here](%s)" % link
+    link = link_base + month[0:3] + "-" + day + "-" + year + "/" + "5pm"
+    time = "5pm UTC, which is can be found in your local time zone [here](%s)" % link
 
-    #     time = """4pm UTC, which is:
+    #     time = """5pm UTC, which is:
     # Los Angeles: 09:00
     # Chicago: 11:00
     # New York: 12:00
@@ -37,7 +37,7 @@ if time == "":
     # Hong Kong: 01:00 on Sunday
     # Tokyo: 02:00 on Sunday
     # Sydney: 04:00 on Sunday"""
-    print("Default time chosen: 4pm UTC")
+    print("Default time chosen: 5pm UTC")
 
 else:
     # autogenerate time zones for given time

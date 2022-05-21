@@ -1,6 +1,6 @@
 import os
 
-# inputing date from command line
+# inputting date from command line
 date = input("What date is the call? (i.e. 19 February 2022) ")
 print("Date chosen: " + date)
 
@@ -10,7 +10,7 @@ day = date_split[0]
 month = date_split[1]
 year = date_split[2]
 
-# inputing time from command line
+# inputting time from command line
 time = input("What time is the call in UTC? (leave blank to set to 5pm UTC) ")
 print(time)
 
@@ -47,7 +47,7 @@ else:
     time = """%s UTC, which is can be found in your local time zone [here](%s)""" % (temp_time, link)
     print("Time chosen: " +  time)
 
-# inputing hosts from command line
+# inputting hosts from command line
 hosts = input("Who are the hosts? (leave blank to set to @tangerineshark and @lucibytes)")
 print(hosts)
 

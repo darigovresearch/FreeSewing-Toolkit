@@ -15,7 +15,7 @@ time = input("What time is the call in UTC? (leave blank to set to 5pm UTC) ")
 print(time)
 
 # savvy time link based off of previous time zones in community call notes
-link_base = "https://savvytime.com/converter/utc-to-ca-los-angeles-il-chicago-ny-new-york-city-brazil-sao-paulo-united-kingdom-london-france-paris-south-africa-johannesburg-msd-india-mumbai-hkt-japan-tokyo-australia-sydney/"
+link_base = "https://savvytime.com/converter/utc-to-belgium-antwerpen-ca-los-angeles-il-chicago-ny-new-york-city-brazil-sao-paulo-united-kingdom-london-france-paris-south-africa-johannesburg-msd-india-mumbai-hkt-japan-tokyo-australia-sydney/"
 
 # code to handle default time if left blank
 if time == "":
@@ -48,14 +48,14 @@ else:
     print("Time chosen: " +  time)
 
 # inputting hosts from command line
-hosts = input("Who are the hosts? (leave blank to set to @tangerineshark and @lucibytes)")
+hosts = input("Who are the hosts? (leave blank to set to @tangerineshark and @KaerMorhan)")
 print(hosts)
 
 # code to handle default hosts if left blank
 if hosts == "":
     # set the default hosts if input is set to blank
-    hosts = """@tangerineshark and @lucibytes"""
-    print("Default hosts chosen: @tangerineshark and @lucibytes")
+    hosts = """@tangerineshark and @KaerMorhan"""
+    print("Default hosts chosen: @tangerineshark and @KaerMorhan")
 
 else:
     print("hosts chosen: " +  time)
@@ -72,11 +72,12 @@ FreeSewing's contributor call is an informal hangout/chat/meeting that is open t
 The call is organized/hosted by """ + hosts + """ on our Discord server.
 The call does not have a fixed structure or agenda items. Everyone is free to suggest agenda items, ask questions, or bring ideas.
 
-Details:
+#### Details:
 
 Location: https://discord.freesewing.org (meeting room: 🔊voice chat)
 Date: """ + date + """ """ + time + """
 Or check the bot in Discord! #meetings
+The meetings will always be at 6pm, Antwerp time.
 
 ### Agenda
 - To be determined
